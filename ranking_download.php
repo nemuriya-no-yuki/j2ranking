@@ -4,7 +4,7 @@
 	date_default_timezone_set('Asia/Tokyo');
 
 	// 文字列でHTML取得
-	$target_url = file_get_contents('https://www.nikkansports.com/soccer/jleague/j2/data/standings/');
+	$target_url = file_get_contents('URL');
 	$target_tag_all = html_entity_decode($target_url);
 
 	// ランキング全体を取得する
