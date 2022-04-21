@@ -25,7 +25,7 @@
 	}
 
 	// ファイル名を設定
-	$file_name = "J2ランキング_".date("YmdHis").".csv";
+	$file_name = "J2ranking_".date("YmdHis").".csv";
 
 	// 書き出し専用でファイルを開く
 	$open_file = fopen($file_name, 'w');
